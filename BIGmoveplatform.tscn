@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://cpewcuawg6il6"]
+
+[ext_resource type="Script" uid="uid://bhewxmgpv3gra" path="res://moveplatform.gd" id="1_ebgl2"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_6fhyq"]
+size = Vector3(1, 0.29187012, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pb8dk"]
+size = Vector3(3.0039673, 0.2956543, 2.9916382)
+
+[node name="moveplatform3" type="StaticBody3D" unique_id=2137440874]
+script = ExtResource("1_ebgl2")
+amplitude = 7
+speed = 3
+sel_direction = 1
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=2061855672]
+transform = Transform3D(3, 0, 0, 0, 1, 0, 0, 0, 3, 0, 0.57561207, 0)
+mesh = SubResource("BoxMesh_6fhyq")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=33399024]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0013122559, 0.5737201, -0.0055236816)
+shape = SubResource("BoxShape3D_pb8dk")

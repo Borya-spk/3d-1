@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bri6wgcpoir8u"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_3xd07"]
+height = 0.060272217
+
+[node name="respawn" type="Node3D" unique_id=89321464]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1157303060]
+mesh = SubResource("CylinderMesh_3xd07")
