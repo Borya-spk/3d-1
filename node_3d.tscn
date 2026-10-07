@@ -1232,7 +1232,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.323584, 0.045957327, -1.64
 transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 28.093384, 2.1121445, -9.825026)
 
 [node name="kni" parent="Enemies" unique_id=1179980088 instance=ExtResource("4_qpkl4")]
+<<<<<<< HEAD
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 26.754852, 2.900364, 26.73641)
+=======
+transform = Transform3D(2.5, 0, 0, 0, 2.5, 0, 0, 0, 2.5, 26.754852, 0.9503479, 26.73641)
+>>>>>>> parent of 3ad749d (увеличил игрока 2.-1)
 
 [node name="ui" type="CanvasLayer" parent="." unique_id=1845784693]
 process_mode = 3
