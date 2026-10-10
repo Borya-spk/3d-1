@@ -1234,6 +1234,12 @@ transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 28.093384, 2.1121445, -
 [node name="kni" parent="Enemies" unique_id=1179980088 instance=ExtResource("4_qpkl4")]
 transform = Transform3D(2.5, 0, 0, 0, 2.5, 0, 0, 0, 2.5, 26.754852, 0.9503479, 26.73641)
 
+[node name="kni2" parent="Enemies" unique_id=757080539 instance=ExtResource("4_qpkl4")]
+transform = Transform3D(2.5, 0, 0, 0, 2.5, 0, 0, 0, 2.5, -11.289864, 0.9503479, -5.092451)
+
+[node name="kni3" parent="Enemies" unique_id=944668684 instance=ExtResource("4_qpkl4")]
+transform = Transform3D(2.5, 0, 0, 0, 2.5, 0, 0, 0, 2.5, 9.487427, 0.9503479, -14.143238)
+
 [node name="ui" type="CanvasLayer" parent="." unique_id=1845784693]
 process_mode = 3
 script = ExtResource("3_qpkl4")
